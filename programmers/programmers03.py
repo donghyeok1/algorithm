@@ -1,6 +1,7 @@
 import heapq
 def solution(n, k, enemy):
     heap = []
+    
     if len(enemy) == k:
         return len(enemy)
     for i in range(len(enemy)):
