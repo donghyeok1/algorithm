@@ -1,6 +1,7 @@
 def solution(k, ranges):
     answer = []
     sum_list = [0]
+    
     while k != 1:
         prev_k = k
         if k % 2 == 0:
