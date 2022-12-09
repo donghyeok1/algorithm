@@ -19,6 +19,5 @@ def solution(board, skill):
         for j in range(len(board[0])):
             board[i][j] += temp[i][j]
             if board[i][j] > 0:
-                answer += 1    
-           
+                answer += 1          
     return answer
