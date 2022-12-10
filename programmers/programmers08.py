@@ -12,5 +12,3 @@ def solution(elements):
             answer.add(sum_el)
     
     return len(answer)
-
-print(solution([7,9,1,1,4]))
