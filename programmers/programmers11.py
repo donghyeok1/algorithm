@@ -36,5 +36,3 @@ def solution(queue1, queue2):
             sum_q1 += a
         
         result += 1
-    
-    return result
