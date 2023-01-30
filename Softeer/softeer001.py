@@ -10,5 +10,4 @@ for i in range(5):
         total += (end_h - start_h) * 60 + end_m - start_m
     else:
         total += (end_h - start_h - 1) * 60 + end_m + 60 - start_m
-
 print(total)
