@@ -5,7 +5,6 @@ n = int(sys.stdin.readline())
 
 res = [0 for _ in range(n)]
 
-
 for _ in range(3):
     ls = list(map(int, sys.stdin.readline().split()))
     heap = []
