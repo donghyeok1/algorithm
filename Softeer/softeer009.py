@@ -7,12 +7,11 @@ a = list(map(int, sys.stdin.readline().split()))
 a = sorted(a)
 
 start = 1
-end = 10 ** 9
+end = (10 ** 9) * 2
 
-while start < end:
+while start + 1 < end:
     total = b
-    mid = (start + end) // 2 + 1
-    res = end
+    mid = (start + end) // 2
 
     for i in range(len(a)):
         if mid <= a[i]:
@@ -25,6 +24,6 @@ while start < end:
     elif total == 0:
         break
     else:
-        end = mid - 1
+        end = mid
 
 print((start + end) // 2)
