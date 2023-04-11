@@ -5,7 +5,6 @@ with open("C:/Users/07385/OneDrive/바탕 화면/algorithm/Euler/q008_words.txt"
     lines = file.readlines()
 
 line = list()
-
 for l in lines:
     line.append(l.strip()) 
 
