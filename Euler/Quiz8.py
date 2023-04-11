@@ -2,7 +2,6 @@ from itertools import permutations
 import sys
 import os
 
-# 현재 작업 디렉토리를 출력
 file_path = os.path.abspath(__file__)
 txt_path = file_path[:-8] + 'q008_words.txt'
 real_txt_path = txt_path.replace("\\", "/")
