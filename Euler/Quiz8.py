@@ -11,7 +11,6 @@ with open(real_txt_path, "r", encoding="utf-8") as file:
     lines = file.readlines()
 
 line = list()
-
 for l in lines:
     line.append(l.strip()) 
 
