@@ -1,7 +1,13 @@
 from itertools import permutations
 import sys
+import os
 
-with open("C:/Users/07385/OneDrive/바탕 화면/algorithm/Euler/q008_words.txt", "r", encoding="utf-8") as file:
+# 현재 작업 디렉토리를 출력
+file_path = os.path.abspath(__file__)
+txt_path = file_path[:-8] + 'q008_words.txt'
+real_txt_path = txt_path.replace("\\", "/")
+
+with open(real_txt_path, "r", encoding="utf-8") as file:
     lines = file.readlines()
 
 line = list()
