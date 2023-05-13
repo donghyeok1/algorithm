@@ -46,6 +46,7 @@ for word in line:
                         text_word += str(coffee_dict[word[index]])
                 if text_word == answer:
                     result.add(word)
+                    print(word)
                     if len(result) == 78:
                         print(word)
                         sys.exit()
